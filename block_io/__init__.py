@@ -3,7 +3,7 @@ import base64
 import base58
 from binascii import hexlify, unhexlify
 import json
-import requests
+import pycurl_requests as requests
 import pkg_resources
 
 from ecdsa import SigningKey, SECP256k1, util
