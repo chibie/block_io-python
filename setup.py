@@ -16,6 +16,7 @@ setup(name='block-io',
       long_description_content_type="text/markdown",
       install_requires=[
           'requests>=2.20.0',
+          'pycurl-requests>=0.1.1',
           'pycryptodome>=3.9.8,<4.0',
           'ecdsa==0.15',
           'six>=1.8.0',
